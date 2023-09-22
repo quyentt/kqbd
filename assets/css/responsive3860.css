@@ -1,0 +1,531 @@
+@media(max-width:767.98px) {
+    .keo table .hours {
+        width: 8%;
+    }
+    .keo table .asia {
+        width: 28%;
+    }
+    .keo table .tai_xiu {
+        width: 28%;
+    }
+    .keo table .one_two {
+        width: 5%;
+    }
+    .ads_pc {
+        display: none;
+    }
+    #ads_menu_pc {
+        display: none;
+    }
+    .container {
+        padding: 0
+    }
+    h1 {
+        display: block;
+        font-size: 14px
+    }
+    #header .top-header {
+        padding: 0;
+        position: relative
+    }
+    #header .top-header #icon-menu {
+        display: block!important;
+        position: absolute;
+        top: 17px;
+        right: 10px;
+        color: #ea1c1c;
+        font-size: 30px;
+        cursor: pointer
+    }
+    #header nav {
+        position: fixed;
+        top: 0;
+        right: -400px;
+        width: 100vw;
+        height: 100vh;
+        background: 0 0;
+        z-index: 100;
+        border-bottom: none;
+        max-width: 400px;
+        transition: all .2s
+    }
+    #header nav.open {
+        right: 0
+    }
+    #header nav.open #icon-close {
+        display: block!important;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 45px;
+        width: 60px;
+        background: #fff;
+        text-align: center;
+        z-index: 101;
+        text-align: center;
+        line-height: 45px;
+        font-size: 30px;
+        color: #333
+    }
+    #header nav .container {
+        padding: 0
+    }
+    #header nav ul#mainmenu {
+        margin-left: 60px;
+        background: #fff;
+        height: 100vh;
+        border-left: 2px solid #008027
+    }
+    #header nav ul#mainmenu li {
+        display: block;
+        float: unset
+    }
+    #header nav ul#mainmenu>li>a {
+        display: block;
+        padding: 0 15px;
+        line-height: 45px;
+        border-bottom: 1px dashed #008027;
+        border-right: none;
+        color: #008027
+    }
+    #header nav ul#mainmenu li a i {
+        display: block;
+        text-align: center;
+        line-height: unset;
+        color: #fff;
+        font-size: 18px
+    }
+    #header nav ul#mainmenu li a i:before {
+        content: 'Trang chủ';
+        font-family: roboto
+    }
+    #s_giaidau {
+        margin-top: 0
+    }
+    #s_giaidau .block-content ul li {
+        width: 33.33%
+    }
+    #content {
+        width: 100%
+    }
+    .inner table th,
+    .inner table td {
+        width: 60px
+    }
+    .his-team .col-xs-12 {
+        width: 50%
+    }
+    #s_giaidau #search {
+        float: left;
+        width: 100%
+    }
+    table#table_match td,
+    table#table_match th {
+        padding: 2px
+    }
+    #matchslider {
+        display: none
+    }
+    #content #tabs_type1 ul li {
+        width: 20%;
+        padding-right: 1px
+    }
+    #content #tabs_type1 ul li a {
+        min-width: unset;
+        width: 100%
+    }
+    #content #tabs_type1.li3 ul li {
+        width: auto
+    }
+    #content #tabs_type1.li3 ul li a {
+        padding: 0 5px
+    }
+}
+@media(max-width:575.98px) {
+    .ads_pc {
+        display: none;
+    }
+    #ads_menu_pc {
+        display: none;
+    }
+    #breadcrumb {
+        height: auto;
+        line-height: unset
+    }
+    #breadcrumb:after {
+        content: '';
+        display: table;
+        clear: both
+    }
+    #s_giaidau .block-content {
+        padding: 10px 5px
+    }
+    #s_giaidau #search form {
+        margin: 10px 0
+    }
+    #s_giaidau #search form .wrapsearch {
+        margin-bottom: 10px
+    }
+    #s_giaidau .block-content ul li {
+        width: 50%
+    }
+    #s_giaidau .block-content ul li a {
+        font-size: 11px
+    }
+    #s_giaidau .block-content ul li a img {
+        margin-right: 0;
+        width: 13px
+    }
+    #content #tabs_type1 ul li a,
+    #content #tabs_type2 ul li a {
+        min-width: unset;
+        width: auto;
+        padding: 0
+    }
+    .home table td:nth-child(5),
+    .home table td:nth-child(6),
+    .home table th:nth-child(5),
+    .home table th:nth-child(6) {
+        display: none!important
+    }
+    .home table td:nth-child(1),
+    .home table td:nth-child(3) {
+        width: 15%
+    }
+    .home table td:nth-child(2),
+    .home table td:nth-child(4) {
+        width: 35%
+    }
+    .ltd h1 {
+        display: block;
+        float: unset
+    }
+    .ltd table td:nth-child(5),
+    .ltd table td:nth-child(6),
+    .ltd table th:nth-child(5),
+    .ltd table th:nth-child(6),
+    .ltd-ct table td:nth-child(5),
+    .ltd-ct table td:nth-child(6),
+    .ltd-ct table th:nth-child(5),
+    .ltd-ct table th:nth-child(6) {
+        display: none!important
+    }
+    .ltd table td:nth-child(1),
+    .ltd table td:nth-child(3),
+    .ltd-ct table td:nth-child(1),
+    .ltd-ct table td:nth-child(3) {
+        width: 15%
+    }
+    .ltd table td:nth-child(2),
+    .ltd table td:nth-child(4),
+    .ltd-ct table td:nth-child(2),
+    .ltd-ct table td:nth-child(4) {
+        width: 35%
+    }
+    .ltd-ct h1 {
+        font-size: 12px
+    }
+    .kqchitiet table td:nth-child(5),
+    .kqchitiet table th:nth-child(5) {
+        display: none!important
+    }
+    .kqchitiet table td:nth-child(1),
+    .kqchitiet table td:nth-child(3) {
+        width: 15%
+    }
+    .kqchitiet table td:nth-child(2),
+    .kqchitiet table td:nth-child(4) {
+        width: 35%
+    }
+    .phongdo table#table_match th,
+    .phongdo table#table_match td {
+        width: 50px
+    }
+    .phongdo table#table_match .keo {
+        display: none!important
+    }
+    .phongdo table td.score{
+        width: 10%;
+    }
+    .phongdo table td.team{
+        width: calc( (100% - 47%) / 2);
+        padding: 0 3px;
+    }
+    .box-trandau .content-trandau td img.logo-team {
+        height: 35px
+    }
+    .box-trandau .content-trandau td .ghiban {
+        font-size: 12px
+    }
+    .box-trandau .content-trandau td .score1 {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 30px
+    }
+    .info-team {
+        padding: 10px
+    }
+    .info-team .img,
+    .info-team .info {
+        display: block
+    }
+    .info-team .info {
+        width: 100%;
+        margin-top: 20px
+    }
+    .his-team {
+        margin: 0 0 10px
+    }
+    .his-team .col-xs-12 {
+        padding: 0
+    }
+    .dudoan tbody td {
+        width: 40px
+    }
+    .dudoan table.tips td,
+    .dudoan table.tips th,
+    .dudoan table.tips .chon {
+        width: 45px
+    }
+    #s_giaidau #search .wf {
+        display: block;
+        float: none
+    }
+    #s_giaidau .block-content,
+    #s_giaidau #search {
+        display: none
+    }
+    #s_giaidau .block-title span {
+        display: block;
+        float: unset;
+        text-align: center
+    }
+    #container_tabs_his .tab-content {
+        width: calc(100% - 10px)
+    }
+    .phongdo table#table_match td.score {
+        width: 12%
+    }
+    .layout_content .block-title .calendar input {
+        width: 135px
+    }
+    .post img {
+        width: 115px;
+        margin-right: 5px
+    }
+    .post .text-post {
+        width: calc(100% - 120px)
+    }
+    .post .des-post {
+        display: none
+    }
+    .post.b-post .text-post {
+        width: 100%;
+        position: static
+    }
+    .post.b-post .text-post .tit-post a {
+        text-align: justify;
+        margin-bottom: 0;
+        padding: 5px 10px;
+        font-size: 14px;
+        line-height: 25px
+    }
+    .post.s-post {
+        width: 100%
+    }
+    .news .content-post img {
+        max-width: 100%;
+        height: auto;
+    }
+    .livescore td:nth-child(5),
+    .livescore td:nth-child(6),
+    .livescore th:nth-child(5),
+    .livescore th:nth-child(6) {
+        display: none
+    }
+    .tuongthuat ul#tabs-his {
+        display: block
+    }
+    .tuongthuat .sodo .tit {
+        display: none
+    }
+    .box-news-home.identify .block-content .col-xs-6:first-child {
+        width: 100%
+    }
+    .box-news-home.identify .block-content .col-xs-6:first-child img {
+        width: 100%
+    }
+    #content .ltd-ct h1 {
+        display: inline-block;
+        float: left;
+        font-size: 12px
+    }
+}
+@media(min-width:576px) and (max-width:767.98px) {
+    .ads_pc {
+        display: none;
+    }
+    #ads_menu_pc {
+        display: none;
+    }
+    label.label {
+        display: none!important
+    }
+    #s_giaidau #search {
+        float: right;
+        width: auto
+    }
+}
+@media(min-width:768px) and (max-width:991.98px) {
+    .ads_mobile {
+        display: none;
+    }
+    #ads_menu_mobile {
+        display: none;
+    }
+    #header nav ul#mainmenu>li>a {
+        padding: 0 12px;
+        font-size: 14px
+    }
+    #s_giaidau .block-content ul li {
+        width: 25%
+    }
+    #content {
+        width: calc(100% - 310px)
+    }
+    #footer p {
+        padding: 0
+    }
+    .layout_content .block-title h1 {
+        font-size: 14px
+    }
+    #content select {
+        width: 70px;
+        margin: 0 3px
+    }
+    .layout_content .block-title .calendar a {
+        width: 15px
+    }
+    .layout_content .block-title .calendar input {
+        width: 110px
+    }
+    .home table td:nth-child(5),
+    .home table td:nth-child(6),
+    .home table th:nth-child(5),
+    .home table th:nth-child(6) {
+        display: none!important
+    }
+    .home table td:nth-child(1) {
+        width: 15%
+    }
+    .home table td:nth-child(3) {
+        width: 12%
+    }
+    .home table td:nth-child(2),
+    .home table td:nth-child(4) {
+        width: calc((100% - 27%)/2)
+    }
+    table.table_bxh.chitiet th,
+    table.table_bxh.chitiet td {
+        width: 30px
+    }
+    .phongdo table#table_match th,
+    .phongdo table#table_match td {
+        width: 50px
+    }
+    .info-team {
+        padding: 10px
+    }
+    .info-team .img,
+    .info-team .info {
+        display: block
+    }
+    .info-team .info {
+        width: 100%;
+        margin-top: 20px
+    }
+    .his-team {
+        margin: 0 -5px 10px
+    }
+    .his-team .col-sm-6 {
+        padding: 0 5px
+    }
+    .dudoan tbody td {
+        width: 55px
+    }
+    .dudoan table.tips .chon {
+        width: 70px
+    }
+    .dudoan table.tips td,
+    .dudoan table.tips th {
+        width: 50px
+    }
+    .post img {
+        width: 150px
+    }
+    .post .text-post {
+        width: calc(100% - 160px)
+    }
+    .post.b-post .text-post {
+        width: 185px
+    }
+    .post .des-post {
+        display: none
+    }
+    .post.b-post .text-post .tit-post a {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 10px;
+        text-align: justify
+    }
+    .post.b-post .text-post .des-post {
+        display: block;
+        font-size: 12px;
+        line-height: 20px
+    }
+    .post.s-post .tit-post a {
+        font-size: 12px;
+        text-align: justify
+    }
+}
+@media(min-width:992px) and (max-width:1167.98px) {
+    .ads_mobile {
+        display: none;
+    }
+    .hidden-pc, tr.hidden-pc, th.hidden-pc, td.hidden-pc {
+        display: none !important;
+    }
+    #ads_menu_mobile {
+        display: none;
+    }
+    #header nav ul#mainmenu>li>a {
+        padding: 0 20px
+    }
+    table#table_match .score {
+        width: 80px
+    }
+    table.table_bxh.chitiet th,
+    table.table_bxh.chitiet td {
+        width: 35px
+    }
+    .inner table th,
+    .inner table td {
+        width: 50px
+    }
+    .phongdo table#table_match th,
+    .phongdo table#table_match td {
+        width: 50px
+    }
+}
+@media(min-width:1167.98px) and (max-width:4000px) {
+    .ads_mobile {
+        display: none;
+    }
+    #ads_menu_mobile {
+        display: none;
+    }
+    .hidden-pc, tr.hidden-pc, th.hidden-pc, td.hidden-pc {
+        display: none !important;
+    }
+}

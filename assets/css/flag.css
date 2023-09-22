@@ -1,0 +1,563 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 11, 2019, 2:05:10 PM
+    Author     : Administrator
+*/
+
+.flag {
+	width: 16px;
+	display: inline-block;
+	margin-right: 5px;
+	height: 13px;
+	vertical-align: text-top;
+	background-image: url("../images/flag-list.25-v1.png");
+	background-repeat: no-repeat;
+}
+.fl_89 {
+background-position: 0 0px !important
+}
+.fl_233 {
+background-position: 0 -24px !important
+}
+.fl_436 {
+background-position: 0 -48px !important
+}
+.fl_638 {
+background-position: 0 -72px !important
+}
+.fl_644 {
+background-position: 0 -96px !important
+}
+.fl_84 {
+background-position: 0 -120px !important
+}
+.fl_46 {
+background-position: 0 -144px !important
+}
+.fl_43 {
+background-position: 0 -168px !important
+}
+.fl_101 {
+background-position: 0 -192px !important
+}
+.fl_97 {
+background-position: 0 -216px !important
+}
+.fl_82 {
+background-position: 0 -264px !important
+}
+.fl_87 {
+background-position: 0 -288px !important
+}
+.fl_647 {
+background-position: 0 -2760px !important
+}
+.fl_1096 {
+background-position: 0 -6100px !important
+}
+.fl_1434 {
+background-position: 0 -6119px !important
+}
+.fl_1254 {
+background-position: 0 -6137px !important
+}
+.fl_1676 {
+background-position: 0 -6154px !important
+}
+.fl_1677 {
+background-position: 0 -6173px !important
+}
+.fl_1687 {
+background-position: 0 -6191px !important
+}
+.fl_91 {
+background-position: 0 -312px !important
+}
+.fl_1689 {
+background-position: 0 -6209px !important
+}
+.fl_1514 {
+background-position: 0 -6226px !important
+}
+.fl_1576 {
+background-position: 0 -6244px !important
+}
+.fl_1675 {
+background-position: 0 -6263px !important
+}
+.fl_96 {
+background-position: 0 -336px !important
+}
+.fl_92 {
+background-position: 0 -360px !important
+}
+.fl_225 {
+background-position: 0 -384px !important
+}
+.x_17 {
+background-position: 0 -384px !important
+}
+.fl_224 {
+background-position: 0 -408px !important
+}
+.fl_232 {
+background-position: 0 -432px !important
+}
+.fl_657 {
+background-position: 0 -456px !important
+}
+.fl_42 {
+background-position: 0 -480px !important
+}
+.fl_98 {
+background-position: 0 -504px !important
+}
+.fl_94 {
+background-position: 0 -528px !important
+}
+.fl_100 {
+background-position: 0 -552px !important
+}
+.fl_140 {
+background-position: 0 -576px !important
+}
+.fl_655 {
+background-position: 0 -600px !important
+}
+.fl_44 {
+background-position: 0 -624px !important
+}
+.fl_643 {
+background-position: 0 -648px !important
+}
+.fl_99 {
+background-position: 0 -672px !important
+}
+.fl_95 {
+background-position: 0 -720px !important
+}
+.fl_86 {
+background-position: 0 -745px !important
+}
+.fl_650 {
+background-position: 0 -768px !important
+}
+.fl_1114 {
+background-position: 0 -792px !important
+}
+.fl_152 {
+background-position: 0 -816px !important
+}
+.fl_434 {
+background-position: 0 -840px !important
+}
+.fl_1678 {
+background-position: 0 -3169px !important
+}
+.fl_173 {
+background-position: 0 -864px !important
+}
+.fl_219 {
+background-position: 0 -2640px !important
+}
+.fl_83 {
+background-position: 0 -888px !important
+}
+.fl_634 {
+background-position: 0 -912px !important
+}
+.fl_642 {
+background-position: 0 -936px !important
+}
+.fl_659 {
+background-position: 0 -960px !important
+}
+.fl_639 {
+background-position: 0 -1008px !important
+}
+.fl_85 {
+background-position: 0 -1032px !important
+}
+.fl_88 {
+background-position: 0 -1056px !important
+}
+.fl_93 {
+background-position: 0 -1080px !important
+}
+.fl_90 {
+background-position: 0 -1104px !important
+}
+.fl_45 {
+background-position: 0 -1128px !important
+}
+.fl_81 {
+background-position: 0 -1152px !important
+}
+.fl_814 {
+background-position: 0 -1176px !important
+}
+.fl_1454 {
+background-position: 0 -1200px !important
+}
+.fl_1474 {
+background-position: 0 -1200px !important
+}
+.fl_415 {
+background-position: 0 -1344px !important
+}
+.fl_975 {
+background-position: 0 -1368px !important
+}
+.fl_221 {
+background-position: 0 -1392px !important
+}
+.fl_141 {
+background-position: 0 -1440px !important
+}
+.fl_646 {
+background-position: 0 -1464px !important
+}
+.fl_1095 {
+background-position: 0 -1488px !important
+}
+.fl_641 {
+background-position: 0 -1512px !important
+}
+.fl_225{
+background-position: 0 -1536px !important
+}
+.fl_754{
+background-position: 0 -1560px !important
+}
+.fl_660 {
+background-position: 0 -1608px !important
+}
+.fl_974 {
+background-position: 0 -1656px !important
+}
+.fl_635 {
+background-position: 0 -1680px !important
+}
+.fl_794 {
+background-position: 0 -1704px !important
+}
+.fl_640 {
+background-position: 0 -1728px !important
+}
+.fl_1685 {
+background-position: 0 -6081px !important
+}
+.fl_1697{
+background-position: 0 -6061px !important
+}
+.fl_1614 {
+background-position: 0 -1752px !important
+}
+.fl_1702 {
+background-position: 0 -6282px !important
+}
+.fl_379 {
+background-position: 0 -1776px !important
+}
+.fl_387 {
+background-position: 0 -1800px !important
+}
+.fl_1294 {
+background-position: 0 -1824px !important
+}
+.fl_654 {
+background-position: 0 -1848px !important
+}
+.fl_1594 {
+background-position: 0 -1872px !important
+}
+.fl_litva {
+background-position: 0 -1872px !important
+}
+.fl_1194 {
+background-position: 0 -1920px !important
+}
+.fl_648 {
+background-position: 0 -1944px !important
+}
+.fl_1722 {
+background-position: 0 -1968px !important
+}
+.fl_1608 {
+background-position: 0 -1992px !important
+}
+.fl_656{
+background-position: 0 -2016px !important
+}
+.fl_113 {
+background-position: 0 -2040px !important
+}
+.fl_1534 {
+background-position: 0 -2088px !important
+}
+.fl_1725 {
+background-position: 0 -2112px !important
+}
+.fl_1718 {
+background-position: 0 -2136px !important
+}
+.fl_1494 {
+background-position: 0 -2160px !important
+}
+.fl_1260 {
+background-position: 0 -2184px !important
+}
+.fl_1094 {
+background-position: 0 -2208px !important
+}
+.fl_435 {
+background-position: 0 -2232px !important
+}
+.fl_1154 {
+background-position: 0 -2256px !important
+}
+.fl_391 {
+background-position: 0 -2280px !important
+}
+.fl_645 {
+background-position: 0 -2304px !important
+}
+.fl_226 {
+background-position: 0 -2328px !important
+}
+.fl_1234 {
+background-position: 0 -2352px !important
+}
+.fl_954 {
+background-position: 0 -2376px !important
+}
+.fl_255 {
+background-position: 0 -2400px !important
+}
+.fl_653 {
+background-position: 0 -2424px !important
+}
+.fl_172 {
+background-position: 0 -2448px !important
+}
+.fl_1074 {
+background-position: 0 -2472px !important
+}
+.fl_637 {
+background-position: 0 -2496px !important
+}
+.fl_414 {
+background-position: 0 -2520px !important
+}
+.fl_736 {
+background-position: 0 -2544px !important
+}
+.fl_649 {
+background-position: 0 -2568px !important
+}
+.fl_220 {
+background-position: 0 -2592px !important
+}
+.fl_1674 {
+background-position: 0 -2640px !important
+}
+.fl_112 {
+background-position: 0 -2736px !important
+}
+.fl_1074 {
+background-position: 0 -2760px !important
+}
+.fl_1607{
+background-position: 0 -2784px !important
+}
+.fl_1334 {
+background-position: 0 -2808px !important
+}
+.fl_854 {
+background-position: 0 -2832px !important
+}
+.fl_212 {
+background-position: 0 -2856px !important
+}
+.fl_1715 {
+background-position: 0 -2880px !important
+}
+.fl_1727 {
+background-position: 0 -2904px !important
+}
+.fl_1574 {
+background-position: 0 -2928px !important
+}
+.fl_382 {
+background-position: 0 -2952px !important
+}
+.fl_735 { 
+background-position:0 -2976px !important 
+}
+.fl_1605 {
+background-position: 0 -3024px !important
+}
+.fl_394 {
+background-position: 0 -3048px !important
+}
+.fl_1606 {
+background-position: 0 -3072px !important
+}
+.fl_1596 {
+background-position: 0 -3096px !important
+}
+.fl_1599 {
+background-position: 0 -3120px !important
+}
+.fl_1743 {
+background-position: 0 -3288px !important
+}
+.fl_1255 {
+background-position: 0 -3312px !important
+}
+.fl_1716 {
+background-position: 0 -3360px !important
+}
+.fl_652 {
+background-position: 0 -3456px !important
+}
+.fl_1680 {
+background-position: 0 -3504px !important
+}
+.fl_1681 {
+background-position: 0 -3528px !important
+}
+.fl_1717 {
+background-position: 0 -3552px !important
+}
+.fl_1600 {
+background-position: 0 -3600px !important
+}
+.fl_1595 {
+background-position: 0 -3624px !important
+}
+.fl_1603 {
+background-position: 0 -3648px !important
+}
+.fl_1732 {
+background-position: 0 -3672px !important
+}
+.fl_1601 {
+background-position: 0 -3720px !important
+}
+.fl_1720 {
+background-position: 0 -3744px !important
+}
+.fl_1742 {
+background-position: 0 -3792px !important
+}
+.fl_1602 {
+background-position: 0 -3816px !important
+}
+.fl_1719 {
+background-position: 0 -3840px !important
+}
+.fl_1726 {
+background-position: 0 -3912px !important
+}
+.fl_1597 {
+background-position: 0 -3936px !important
+}
+.fl_1728 {
+background-position: 0 -3960px !important
+}
+.fl_1734 {
+background-position: 0 -4080px !important
+}
+.fl_1604 {
+background-position: 0 -4104px !important
+}
+.fl_1729 {
+background-position: 0 -4152px !important
+}
+.fl_1713 {
+background-position: 0 -4200px !important
+}
+.fl_1721 {
+background-position: 0 -4224px !important
+}
+.fl_1724 {
+background-position: 0 -4248px !important
+}
+.fl_1575 {
+background-position: 0 -4488px !important
+}
+.fl_651 {
+background-position: 0 -4512px !important
+}
+.fl_1598 {
+background-position: 0 -4632px !important
+}
+.fl_1733 {
+background-position: 0 -4920px !important
+}
+.fl_1737 {
+background-position: 0 -4944px !important
+}
+.fl_1723 {
+background-position: 0 -5064px !important
+}
+.fl_1740 {
+background-position: 0 -5184px !important
+}
+.fl_1774 {
+background-position: 0 -5664px !important
+}
+.fl_1754 {
+background-position: 0 -5688px !important
+}
+.fl_1455 {
+background-position: 0 -5945px !important
+}
+.fl_1456 {
+background-position: 0 -6004px !important
+}
+.fl_1457 {
+background-position: 0 -5966px !important
+}
+.fl_1458 {
+background-position: 0 -5925px !important
+}
+.fl_1459 {
+background-position: 0 -6024px !important
+}
+.fl_1634 {
+background-position: 0 -5986px !important
+}
+/*flag by language code*/
+.fl_vn {
+    background-position: 0 -2736px !important
+}
+.fl_es {
+    background-position: 0 -1128px !important
+}
+.fl_de {
+    background-position: 0 -624px !important
+}
+.fl_fr {
+    background-position: 0 -144px !important
+}
+.fl_en {
+    background-position: 0 -480px !important
+}
+.fl_uk {
+    background-position: 0 -480px !important
+}
+.fl_it {
+    background-position: 0 -168px !important
+}
+.fl_ru {
+    background-position: 0 -1080px !important
+}
+.fl_pt {
+    background-position: 0 -1056px !important
+}
