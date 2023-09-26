@@ -106,7 +106,8 @@
         width: 33.33%
     }
     #content {
-        width: 100%
+        width: 100%;
+        overflow-x: hidden;
     }
     .inner table th,
     .inner table td {
@@ -141,6 +142,7 @@
         padding: 0 5px
     }
 }
+
 @media(max-width:575.98px) {
     .ads_pc {
         display: none;
@@ -244,10 +246,10 @@
     .phongdo table#table_match .keo {
         display: none!important
     }
-    .phongdo table td.score{
+    .phongdo table td.score {
         width: 10%;
     }
-    .phongdo table td.team{
+    .phongdo table td.team {
         width: calc( (100% - 47%) / 2);
         padding: 0 3px;
     }
@@ -362,6 +364,7 @@
         font-size: 12px
     }
 }
+
 @media(min-width:576px) and (max-width:767.98px) {
     .ads_pc {
         display: none;
@@ -377,6 +380,7 @@
         width: auto
     }
 }
+
 @media(min-width:768px) and (max-width:991.98px) {
     .ads_mobile {
         display: none;
@@ -489,11 +493,15 @@
         text-align: justify
     }
 }
+
 @media(min-width:992px) and (max-width:1167.98px) {
     .ads_mobile {
         display: none;
     }
-    .hidden-pc, tr.hidden-pc, th.hidden-pc, td.hidden-pc {
+    .hidden-pc,
+    tr.hidden-pc,
+    th.hidden-pc,
+    td.hidden-pc {
         display: none !important;
     }
     #ads_menu_mobile {
@@ -518,6 +526,7 @@
         width: 50px
     }
 }
+
 @media(min-width:1167.98px) and (max-width:4000px) {
     .ads_mobile {
         display: none;
@@ -525,7 +534,10 @@
     #ads_menu_mobile {
         display: none;
     }
-    .hidden-pc, tr.hidden-pc, th.hidden-pc, td.hidden-pc {
+    .hidden-pc,
+    tr.hidden-pc,
+    th.hidden-pc,
+    td.hidden-pc {
         display: none !important;
     }
 }
